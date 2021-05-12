@@ -1,4 +1,4 @@
-name: build01
+name: build
 
 on:
   repository_dispatch:
