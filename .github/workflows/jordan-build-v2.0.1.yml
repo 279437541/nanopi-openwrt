@@ -1,4 +1,4 @@
-name: build-超级纯净版本v2.0.0
+name: build-超级纯净版本
 
 on:
   repository_dispatch:
