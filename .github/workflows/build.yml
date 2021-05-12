@@ -186,7 +186,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./release/*
-          tag: ${{env.strDate}}
+          tag: ${{env.strDate}}v1
           file_glob: true
           overwrite: true
           release_name: ${{env.strDate}} 超级纯净版本（仅保留科学上网）
@@ -240,7 +240,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./release/*
-          tag: ${{env.strDate}}
+          tag: ${{env.strDate}}v1
           file_glob: true
           overwrite: true
           release_name: ${{env.strDate}} 超级纯净版本（仅保留科学上网）
