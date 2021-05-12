@@ -200,7 +200,7 @@ jobs:
           tag: ${{env.strDate}}
           file_glob: true
           overwrite: true
-          release_name: ${{env.strDate}} 自动发布
+          release_name: ${{env.strDate}} 超级纯净版本（仅保留科学上网）
 
   generate_firmware:
     needs: build_packages
