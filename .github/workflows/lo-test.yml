@@ -1,4 +1,4 @@
-name: build
+name: build-jordan
 
 on:
   repository_dispatch:
@@ -201,7 +201,7 @@ jobs:
           tag: ${{env.strDate}}
           file_glob: true
           overwrite: true
-          release_name: ${{env.strDate}} 精简版
+          release_name: ${{env.strDate}}精简版
 
   generate_firmware:
     needs: build_packages
@@ -258,4 +258,4 @@ jobs:
           tag: ${{env.strDate}}
           file_glob: true
           overwrite: true
-          release_name: ${{env.strDate}} 自动发布完整版本
+          release_name: ${{env.strDate}}完整版本
